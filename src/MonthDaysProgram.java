@@ -14,7 +14,6 @@ public class MonthDaysProgram {
             System.out.print("Введите номер месяца (1–12): ");
             monthNumber = input.nextInt();
 
-            // Индекс для массива
             int index = monthNumber - 1;
             System.out.println("Месяц: " + months[index]);
             System.out.println("Количество дней: " + dom[index]);
